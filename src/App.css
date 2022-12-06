@@ -1,0 +1,27 @@
+.seccion-1 {
+  background-color: #f7da33;
+  height: 100vh;
+  padding: 20px;
+}
+.seccion-2 {
+  background-color: white;
+  height: 100vh;
+}
+.logo-img {
+  width: 400px;
+  margin: auto;
+}
+.logo-img img {
+  width: 100%;
+}
+.hamburguesa {
+  width: 40px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.linea {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 7px 0;
+}
