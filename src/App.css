@@ -2,10 +2,11 @@
   background-color: #f7da33;
   height: 100vh;
   padding: 20px;
+  position: relative;
 }
 .seccion-2 {
-  background-color: white;
-  height: 100vh;
+  background-color: #f7da33;
+  font-size: 0;
 }
 .logo-img {
   width: 400px;
@@ -17,11 +18,69 @@
 .hamburguesa {
   width: 40px;
   margin: auto;
-  margin-bottom: 40px;
+  height: 50px;
+  cursor: pointer;
 }
 .linea {
   width: 100%;
   height: 2px;
   background-color: black;
   margin: 7px 0;
+}
+.menu {
+  text-align: center;
+  height: 50px;
+}
+.menu a {
+  padding: 0 20px 20px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.box-scroll {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+  cursor: pointer;
+}
+.flecha-img {
+  width: 30px;
+  margin: auto;
+  padding: 10px;
+}
+.flecha-img img {
+  width: 100%;
+}
+.seccion-2 .texto {
+  font-size: 80px;
+  position: relative;
+  z-index: 2;
+  padding-left: 100px;
+}
+.adornos-img {
+  width: 100%;
+  margin-top: -400px;
+}
+.adornos-img img {
+  width: 100%;
+}
+.seccion-3 {
+  padding-top: 40px;
+}
+.provechito-img {
+  width: 400px;
+  margin: auto;
+}
+.provechito-img img {
+  width: 100%;
+}
+.pulpo-img {
+  width: 100%;
+  margin: auto;
+}
+.pulpo-img img {
+  width: 100%;
 }
