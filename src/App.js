@@ -22,7 +22,7 @@ function App() {
           {elMenuEstaActivo && (
             <div className="menu">
               <a href="/">CONTACTO</a>
-              <a href="/">DIRECCIÓN</a>
+              <a href="/">DIRECCION</a>
               <a href="/">MENU</a>
             </div>
           )}
@@ -30,7 +30,7 @@ function App() {
           <div className="logo-img">
             <img src="img/logo.png" alt="Logo NENE" />
             <div className="slogan">
-              <h1>ANTOJITOS NACIONALES</h1>
+              <p>ANTOJITOS NACIONALES</p>
             </div>
           </div>
         </div>
@@ -56,6 +56,37 @@ function App() {
         <div className="pulpo-img">
           <img src="img/pulpo.jpg" alt="pulpo-imagen"></img>
         </div>
+      </div>
+      <div className="seccion-4">
+        <div className="texto">SUSCRÍBETE AL MENU DEL DÍA</div>
+        <div className="formulario">
+          <div className="box-input">
+            <form>
+              <input
+                type="text"
+                id="correo"
+                name="correo"
+                required="True"
+                placeholder="Correo"
+              />
+            </form>
+
+            <button>
+              <img src="img/flecha-derecha.png" alt="flecha-derecha"></img>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="seccion-5">
+        <div className="nene-img">
+          <img src="img/nene3.png" alt="nene fondo"></img>
+        </div>
+      </div>
+      <div className="box-scroll-up">
+        <div className="flecha-img">
+          <img src="img/flecha-parada.png" alt="flecha-parada"></img>
+        </div>
+        REGRESAR
       </div>
     </div>
   );
