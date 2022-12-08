@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "yirafont";
+  src: url("/public/Fontspring-DEMO-termina-regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "yirafont";
+  src: url("/public/Fontspring-DEMO-termina-light.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "yirafont";
+  src: url("/public/Fontspring-DEMO-termina-bold.otf");
+  font-weight: 900;
+}
+* {
+  box-sizing: border-box;
+  font-family: "yirafont";
+}
 .seccion-1 {
   background-color: #f7da33;
   height: 100vh;
@@ -69,6 +88,7 @@
 }
 .seccion-3 {
   padding-top: 40px;
+  font-size: 0;
 }
 .provechito-img {
   width: 400px;
@@ -83,4 +103,91 @@
 }
 .pulpo-img img {
   width: 100%;
+}
+.seccion-4 {
+  text-align: center;
+  background-color: #f7da33;
+  padding-bottom: 100px;
+}
+.seccion-4 .texto {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.seccion-4 .formulario input {
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+}
+.seccion-4 .formulario img {
+  width: 35px;
+}
+.seccion-4 .formulario button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.box-input {
+  position: relative;
+  display: inline-block;
+}
+.box-input button {
+  position: absolute;
+  top: 13px;
+  right: 16px;
+}
+.slogan {
+  text-align: center;
+  font-size: 25px;
+}
+.nene-img {
+  width: 400px;
+  margin: auto;
+}
+.nene-img img {
+  width: 100%;
+}
+.seccion-5 {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background-image: url("/public/img/background-2.jpg");
+  background-size: cover;
+}
+.box-scroll-up {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .seccion-2 .texto {
+    font-size: 40px;
+    padding: 0;
+  }
+  .seccion-4 {
+    padding: 20px;
+  }
+  .seccion-4 .formulario input {
+    width: 100%;
+  }
+  .box-input {
+    display: block;
+  }
+  .logo-img {
+    width: 50%;
+  }
+  .adornos-img {
+    display: none;
+  }
+  .seccion-2 {
+    padding: 20px;
+  }
+  .provechito-img {
+    width: 100%;
+  }
+  .nene-img {
+    width: 90%;
+  }
+  .flecha-img {
+    width: 46px;
+  }
 }
