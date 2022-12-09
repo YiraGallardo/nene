@@ -1,12 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 function App() {
   const [elMenuEstaActivo, ponerElMenuEstaActivo] = useState(false);
   const menuClic = () => {
     ponerElMenuEstaActivo(!elMenuEstaActivo);
   };
+  const scrollearParaArriba = () => {
+    scroll.scrollToTop();
+  };
+  const scrollearParaAbajo = () => {
+    scroll.scrollMore(650);
+  };
+
   return (
     <div>
       <div className="seccion-1">
@@ -34,7 +42,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="box-scroll">
+        <div className="box-scroll" onClick={scrollearParaAbajo}>
           SCROLL
           <div className="flecha-img">
             <img src="img/flecha.png" alt="scroll"></img>
@@ -82,7 +90,7 @@ function App() {
           <img src="img/nene3.png" alt="nene fondo"></img>
         </div>
       </div>
-      <div className="box-scroll-up">
+      <div className="box-scroll-up" onClick={scrollearParaArriba}>
         <div className="flecha-img">
           <img src="img/flecha-parada.png" alt="flecha-parada"></img>
         </div>
