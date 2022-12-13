@@ -19,7 +19,7 @@ function App() {
     <div>
       <div className="seccion-1">
         <div className="header-content">
-          {!elMenuEstaActivo && (
+          {/* {!elMenuEstaActivo && (
             <div className="hamburguesa" onClick={menuClic}>
               <div className="linea"></div>
               <div className="linea"></div>
@@ -33,7 +33,7 @@ function App() {
               <a href="/">DIRECCION</a>
               <a href="/">MENU</a>
             </div>
-          )}
+          )} */}
 
           <div className="logo-img">
             <img src="img/logo.png" alt="Logo NENE" />
